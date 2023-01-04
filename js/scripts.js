@@ -8,7 +8,9 @@ const images = [
     "images/7.jpg",
     "images/8.jpg",
     "images/9.jpg"
-]
+];
 
-    let numberRan = Math.floor(Math.random() * images.length)
-    document.getElementById("main_image").src = images[numberRan]
+const numberRan = Math.floor(Math.random() * images.length);
+document.getElementById("main_image").src = images[numberRan]
+
+// document.getElementsByClassName("main_image_class").src = images[numberRan]

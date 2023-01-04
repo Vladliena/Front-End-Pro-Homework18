@@ -1,3 +1,9 @@
-
+div {
+  display: flex;
+}
+div img {
+  max-width: 500px;
+  margin: auto;
+}
 
 /*# sourceMappingURL=main_style.css.map */
